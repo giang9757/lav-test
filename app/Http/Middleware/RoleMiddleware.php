@@ -15,7 +15,7 @@ class RoleMiddleware
      */
     public function handle($request, Closure $next, $var='aaaa')
     {
-        echo $var.'123456';
+        echo $var.'test';
         return $next($request);
     }
 }
